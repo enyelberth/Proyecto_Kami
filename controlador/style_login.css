@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:ital,wght@0,500;0,700;1,600 & display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+ background-color: black;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    height: 550px;
+    background: url(../recursos/fondoscouts.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.contenido h2{
+    color: black;
+    text-align: center;
+    font-size: 35px; /* Ajusta este valor según tus necesidades */
+    margin-top: 150px; /* Ajusta este valor según tus necesidades */
+}
+.text-sci {
+    
+    position: absolute;
+    font-style: italic;
+    top: 350px; /* Ajusta este valor según tus necesidades */
+    right: 0;
+    color: white;
+    
+  }
+.container .contenido {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 58%;
+    height: 100%;
+    background: transparent;
+    padding: 80px;
+    color: blanchedalmond;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+}
+.container .logreg-box{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: calc(100% - 58%);
+    height: 100%;
+   overflow: hidden;
+}
+.logreg-box .form-box.login{
+    transform: translateX(0);
+    transition: transform .6s ease;
+    transition-delay: .7s;
+}
+.logreg-box.active .form-box.login{
+    transform: translateX(430px);
+    transition-delay: 0s;
+}
+.logreg-box .form-box {
+    position: absolute;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     height: 100%;
+     background: transparent;
+     backdrop-filter: blur(20px) ;
+     border-top-right-radius: 10px;
+     border-bottom-right-radius: 10px;
+     color: white;
+}
+.logreg-box .form-box.registrar{
+    transform: translateX(430px);
+    transition: transform .5s ease;
+    transition-delay: 0s;
+}
+.logreg-box.active .form-box.registrar{
+    transform: translateX(0px);
+    transition-delay: .7s;
+ }
+.form-box h2{
+  font-size: 32px;
+  text-align: center;
+}
+
+.form-box .input-box{
+    position: relative;
+    width: 340px;
+    height: 50px;
+    border-bottom: 2px solid white;
+    margin: 30px 0;
+}
+
+.input-box , input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    padding-right: 28px;
+}
+.input-box .icon{
+    position: absolute;
+    top: 13px;
+    right: 0;
+    font-size: 19px;
+}
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top: -5px;
+}
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    position: absolute;
+    top: 13px;
+    right: 0;
+    font-size: 19px;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s ease;
+}
+.btn{
+    width: 100%;
+    height: 45px;
+    background: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+}
+.fondo{
+    width: 100%;
+    height: 100vh;
+    background: url(../recursos/fondoscouts.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px);
+}
+.logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  

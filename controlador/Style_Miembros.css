@@ -1,0 +1,87 @@
+body {
+    background-image: url('../recursos/textura-madera-fondo.jpg') ; /* Ruta a tu imagen de fondo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
+    color: #000000;
+}
+
+/* Estilos para el formulario de agregar producto */
+h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    color: white; 
+}
+
+/* Estilos para los botones personalizados */
+.btn-custom {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.btn-custom:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+/* Estilos para la tabla de inventario */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: #fff; /* Fondo blanco para la tabla */
+}
+
+/* Estilos para las celdas de la tabla */
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Estilos para los enlaces de editar y eliminar */
+a {
+    text-decoration: none;
+    color: #062547;
+    margin-right: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #05274b;
+}
+
+/* Estilos para los botones de edición y eliminación en la tabla */
+.btn-editar {
+    background-color: #28a745; /* Verde */
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.btn-eliminar {
+    background-color: #dc3545; /* Rojo */
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+}
+.card-header{
+    background-color: rgb(11, 3, 44) !important;
+}
